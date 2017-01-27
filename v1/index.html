@@ -4,8 +4,13 @@
     <meta charset="utf-8">
     <title></title>
     <script src="bower_components/angular/angular.js" type="text/javascript"> </script>
+    <script src="app.js" type="text/javascript"> </script>
+    <script src="src/controllers/categoryController.js" type="text/javascript"> </script>
+    <script src="src/controllers/itemController.js" type="text/javascript"> </script>
   </head>
-  <body>
-
+  <body ng-app="collectify">
+    <div ng-controller="itemCreate">
+      {{test}}
+    </div>
   </body>
 </html>
